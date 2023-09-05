@@ -25,12 +25,16 @@ main{
 }.sub-container-header{
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
-.verified{
+.verified::marker{
+    content:"\2713";
+}
+.not-verified{
     list-style-type:"\2713";
 }
 ul .verified::marker{
     color: rgb(59, 198, 59);
+    border: 1px black solid;
 }
-ul.not-verified::marker{
-    color: ;
+ul .not-verified::marker{
+    color:red ;
 }
