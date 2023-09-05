@@ -1,5 +1,6 @@
 /* Verified Entity 
-    V "\2713";
+    V: "\2713";
+    check color: rgb(59, 198, 59)
 */
 *{
     margin: 0;
@@ -26,4 +27,10 @@ main{
 }
 .verified{
     list-style-type:"\2713";
+}
+ul .verified::marker{
+    color: rgb(59, 198, 59);
+}
+ul.not-verified::marker{
+    color: ;
 }
