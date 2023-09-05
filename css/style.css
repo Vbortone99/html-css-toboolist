@@ -25,6 +25,20 @@ main{
 }.sub-container-header{
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
+#first-action{
+    background-color: rgb(66, 155, 234);
+    color: white;
+    border: 1px solid rgb(66, 155, 234);
+    border-radius: 6px;
+    padding: 5px;
+}
+#second-action{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 5px;
+}
 .verified::marker{
     content:"\2713";
 }
