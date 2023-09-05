@@ -1,6 +1,8 @@
 /* Verified Entity 
     V: "\2713";
-    check color: rgb(59, 198, 59)
+    verified check color: rgb(99, 189, 167)
+    not verified check color: rgb(222, 112, 108)
+    button color blue:rgb(71, 173, 241)
 */
 *{
     margin: 0;
@@ -26,9 +28,9 @@ main{
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 #first-action{
-    background-color: rgb(66, 155, 234);
+    background-color: rgb(71, 173, 241);
     color: white;
-    border: 1px solid rgb(66, 155, 234);
+    border: 1px solid rgb(71, 173, 241);
     border-radius: 6px;
     padding: 5px;
 }
@@ -46,9 +48,31 @@ main{
     list-style-type:"\2713";
 }
 ul .verified::marker{
-    color: rgb(59, 198, 59);
+    color: rgb(99, 189, 167);
     border: 1px black solid;
 }
 ul .not-verified::marker{
-    color:red ;
+    color:rgb(222, 112, 108);
+}
+.badge{
+    border-radius: 1em;
+    padding: 4px;
+}
+.badge.editorial{
+    background-color:rgb(71, 173, 241) ;
+}
+.badge.q1-goals{
+    background-color: rgb(156, 114, 228);
+}
+.badge.recruiting{
+    background-color:rgb(100, 191, 168) ;
+}
+.badge.mobile{
+background-color:rgb(242, 158, 51) ;
+}
+.badge.website{
+    background-color:rgb(216, 99, 161) ;
+}
+.badge.sales{
+    background-color:rgb(175, 200, 37) ;
 }
