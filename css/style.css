@@ -9,3 +9,6 @@
 header{
     margin:15px 0px 0px 30px
 }
+h1{
+    display: inline-block;
+}
